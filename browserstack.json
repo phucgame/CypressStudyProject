@@ -1,0 +1,44 @@
+{
+    "auth": {
+        "username": "phuclegame1",
+        "access_key": "x9bf29kShuC5qoUbkqMy"
+    },
+    "browsers": [
+        {
+            "browser": "chrome",
+            "os": "Windows 10",
+            "versions": [
+                "latest"
+            ]
+        },
+        {
+            "browser": "firefox",
+            "os": "Windows 10",
+            "versions": [
+                "latest"
+            ]
+        },
+        {
+            "browser": "edge",
+            "os": "Windows 10",
+            "versions": [
+                "latest"
+            ]
+        }
+    ],
+    "run_settings": {
+        "cypress_config_file": "cypress.json",
+        "project_name": "CypressStudyProject",
+        "build_name": "build-name-01",
+        "exclude": [],
+        "parallels": "6",
+        "npm_dependencies": {},
+        "package_config_options": {},
+        "specs": ["cypress/integration/group-01/*", "cypress/integration/group-02/*"]
+    },
+    "connection_settings": {
+        "local": true,
+        "local_identifier": null
+    },
+    "disable_usage_reporting": false
+}
